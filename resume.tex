@@ -1,4 +1,5 @@
 \documentclass[12pt, noindent]{article}
+\usepackage[T1]{fontenc}
 \usepackage{microtype}
 \usepackage{graphicx}
 \usepackage{titling}
@@ -13,8 +14,8 @@
 
 \pagenumbering{gobble}
 
-\titlespacing{\section}{0pt}{\parskip}{-\parskip}
-\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+\titlespacing{\section}{0pt}{-1em}{-\parskip}
+\titlespacing{\subsection}{0pt}{-1em}{-\parskip}
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
 
@@ -25,17 +26,18 @@
     \theauthor
   \end{Huge}
 
-  Email: platypusdiamond@gmail.com
+  Email: tkamat3@gatech.edu | Phone: (904) 615-0242
 
-  Phone: (904) 615-0242
+  Github: https://github.com/tkamat
   \end{center}
 }
 
 \titleformat{\section}
-{\LARGE\bfseries}
+{\Large\bfseries}
 {}
 {0em}
 {}[\titlerule]
+
 
 \titleformat{\subsection}
 {\large\bfseries}
@@ -43,79 +45,100 @@
 {-1em}
 {}
 
+
 \titleformat{\subsubsection}
 {\large\bfseries}
 {$\Asterisk$}
 {.5em}
 {}
 
+
 \begin{document}
 \maketitle
 
+\noindent \textbf{Objective}: Seeking a summer internship position to further
+develop my skills and experiences as a computer science student and aspiring
+software developer
+
+\vspace{1em}
 \section{Education} 
-\subsection{Georgia Institute of Technology}
+\subsection{Georgia Institute of Technology \hfill \normalsize
+\normalfont Atlanta, Georgia, 2019-Present}
 \begin{itemize}
-\itemsep0em
-\item First Year at Georgia Institute of Technology
-\item Computer Science Major
+\itemsep-.25em
+\item Computer Science major, expected graduation in 2023
 \item Threads: Intelligence and Information Intranetworks
 \item Currently enrolled in CS 1332 (Data Structures and Algorithms)
 \end{itemize}
-\subsection{Allen D. Nease High School}
+\subsection{Allen D. Nease High School \hfill \normalsize \normalfont Ponte
+  Vedra, Florida, 2015-2019}
 \begin{itemize}
-\itemsep0em 
-\item Graduated from Allen D. Nease High School.
+\itemsep-.25em 
+\item Graduated from Allen D. Nease High School
 \item Earned IB Diploma
 \end{itemize}
 
 \section{Employment}
-\subsection{Pax Technology}
-Unpaid summer internship at Pax Technology
+\subsection{Pax Technology \hfill \normalsize \normalfont Jacksonville, Florida,
+  Summer 2018}
 \begin{itemize}
-\itemsep0em
+\itemsep-.25em
 \item Developed a credit card payment application for the Android platform
-\item Made significant changes to the company's wordpress website (worked with )
+\item Worked with SQLite over HTTP, and implemented the company's payment API
+\item Edited the company's Wordpress website, including the homepage and
+  application forms
 \end{itemize}
 
+\section{Skills}
 \subsection{Programming Languages}
-Java, Javascript, HTML, CSS, Clojure/Clojurescript, Haskell, Lisp, some C/C++.
+\begin{itemize}
+\item Java, Kotlin, Javascript, CSS, Clojure/Clojurescript, Haskell, Lisp,
+  some C/C++
+\end{itemize}
 
 \subsection{Markup Languages}
-Org mode, Markdown, \LaTeX{}.
+\begin{itemize}
+\item HTML, Org mode, Markdown, \LaTeX{}
+\end{itemize}
 
 \subsection{Technologies}
-Android developement, React JS, Linux/UNIX, bash shell, Emacs, vim. 
-
-\section{Service}
 \begin{itemize}
-\item Volunteer as a cook and server at the Sulzbacher homeless shelter, and am
-  part of a group that gives away vegetarian meals to the needy.
-\item Participated in Blessings in a Backpack for 3 years.
-\item Volunteered at the Cummer Museum for a summer camp.
-\item Helped my Tae Kwon Do instructor as an assistant instructor.
+\item Android developement, React JS, Linux/UNIX, Git, bash shell, Emacs, vim
 \end{itemize}
 
-\section{Accomplishents}
+\section{Projects}
+\subsection{Android}
 \begin{itemize}
-\item Developed \textit{Youwatch}, a mobile application for Android. The
-  application lets the user enter certain topics and minimum numbers of views,
-  and it scans YouTube for matches.
-\item The app has 1000+ users, was featured in an Android news article. 
+  \itemsep-.25em
+\item Developed \textit{Youwatch}, a mobile application for Android
+\item The application lets the user enter certain topics and minimum numbers of
+  views, and it scans YouTube for matches
+\item The app has 5000+ users, and was featured in an Android news article 
 \end{itemize}
 
-\subsubsection{Web}
+\subsection{Web}
 \begin{itemize}
-\item Developed a small web application for a school project that uses genetic
-  algorithms to solve a maze.  
-\item The website was developed using React JS, using a compiles-to-javascript
-  language (clojurescript). 
+  \itemsep-.25em
+\item Developed a Single Page Application (SPA) that uses genetic algorithms to
+  solve a maze, and displays the process graphically
+\item The website was developed using React JS, using clojurescript, HTML, and
+  CSS
 \end{itemize}
 
-\subsection{Other}
+\section{Activities and Service}
+\subsection{Sulzbacher Homeless Shelter \hfill \normalsize \normalfont
+  Jacksonville, Florida, 2015-2019}
 \begin{itemize}
-\item 1st place team in the Project Green District Competition, where our team
-  designed and built a piezoelectric tile.
-\item Placed in a statewide math competition (MathCounts).
+  \itemsep-.25em
+\item Volunteered as a cook at the Sulzbacher Homeless Shelter
+\item Cooked meals for over 500 residents and visitors every month
+\end{itemize}
+\subsection{Academic Quizbowl Team \hfill \normalsize \normalfont Atlanta,
+  Georgia, 2019-Present}
+\begin{itemize}
+  \itemsep-.25em
+\item Compete in local, regional, and national tournaments
+\item Involves trivia and background knowledge from a multitude of subjects
 \end{itemize}
 
 
