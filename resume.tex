@@ -1,12 +1,11 @@
 \documentclass[12pt, noindent]{article}
-\usepackage[T1]{fontenc}
 \usepackage{microtype}
 \usepackage{graphicx}
 \usepackage{titling}
 \usepackage{setspace}
 \usepackage{mathabx}
 \usepackage{titlesec}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[margin=0.5in, bottom=0.25in, top=0.25in]{geometry}
 \usepackage[colorlinks=true, urlcolor=blue]{hyperref}
 
 \author{Tushaar Kamat}
@@ -14,8 +13,8 @@
 
 \pagenumbering{gobble}
 
-\titlespacing{\section}{0pt}{-1em}{-\parskip}
-\titlespacing{\subsection}{0pt}{-1em}{-\parskip}
+\titlespacing{\section}{0pt}{-1em}{0em}
+\titlespacing{\subsection}{0pt}{-.85em}{0em}
 \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
 
@@ -26,7 +25,7 @@
     \theauthor
   \end{Huge}
 
-  Email: tkamat3@gatech.edu | Phone: (904) 615-0242
+  Email: tkamat3@gatech.edu $\vert$ Phone: (904) 615-0242
 
   Github: https://github.com/tkamat
   \end{center}
@@ -42,7 +41,7 @@
 \titleformat{\subsection}
 {\large\bfseries}
 {}
-{-1em}
+{.5em}
 {}
 
 
@@ -56,9 +55,9 @@
 \begin{document}
 \maketitle
 
-\noindent \textbf{Objective}: Seeking a summer internship position to further
-develop my skills and experiences as a computer science student and aspiring
-software developer
+\noindent \textbf{Objective}: To obtain an internship position that will utilize
+my problem-solving and technical skills, and further develop my abilities and
+experiences as a computer science student and software developer
 
 \vspace{1em}
 \section{Education} 
@@ -66,9 +65,10 @@ software developer
 \normalfont Atlanta, Georgia, 2019-Present}
 \begin{itemize}
 \itemsep-.25em
-\item Computer Science major, expected graduation in 2023
-\item Threads: Intelligence and Information Intranetworks
-\item Currently enrolled in CS 1332 (Data Structures and Algorithms)
+\item B.S. Computer Science, expected graduation in 2023
+\item Threads: Information Internetworks and Intelligence 
+\item Relevant Courses: CS 1331 (Introduction to Object-Oriented Programming),
+  CS 1332 (Data Structures and Algorithms)
 \end{itemize}
 \subsection{Allen D. Nease High School \hfill \normalsize \normalfont Ponte
   Vedra, Florida, 2015-2019}
@@ -79,21 +79,23 @@ software developer
 \end{itemize}
 
 \section{Employment}
-\subsection{Pax Technology \hfill \normalsize \normalfont Jacksonville, Florida,
+\subsection{Pax Technology (Software Engineer Intern) \hfill \normalsize \normalfont Jacksonville, Florida,
   Summer 2018}
 \begin{itemize}
 \itemsep-.25em
-\item Developed a credit card payment application for the Android platform
-\item Worked with SQLite over HTTP, and implemented the company's payment API
-\item Edited the company's Wordpress website, including the homepage and
-  application forms
+\item Developed a credit card payment application for the Android platform,
+  using Kotlin, SQLite, and the company's point-of-sale API
+\item Worked with other engineers to analyze the efficiency of my program, and
+  test its scalability 
+\item Redesigned and added many pages to the company's Wordpress website,
+  including significant improvements to the homepage and application forms
 \end{itemize}
 
 \section{Skills}
 \subsection{Programming Languages}
 \begin{itemize}
-\item Java, Kotlin, Javascript, CSS, Clojure/Clojurescript, Haskell, Lisp,
-  some C/C++
+\item Java, Kotlin, Javascript, Python, CSS, Clojure/Clojurescript, Haskell,
+  C/C++
 \end{itemize}
 
 \subsection{Markup Languages}
@@ -103,26 +105,30 @@ software developer
 
 \subsection{Technologies}
 \begin{itemize}
-\item Android developement, React JS, Linux/UNIX, Git, bash shell, Emacs, vim
+\item Android developement, React JS, JUnit, SQL, Linux/UNIX, Git, Bash shell,
+  Emacs
 \end{itemize}
 
 \section{Projects}
-\subsection{Android}
+\subsection{Youwatch}
 \begin{itemize}
   \itemsep-.25em
-\item Developed \textit{Youwatch}, a mobile application for Android
-\item The application lets the user enter certain topics and minimum numbers of
-  views, and it scans YouTube for matches
-\item The app has 5000+ users, and was featured in an Android news article 
+\item Developed and released an Android application written in Java and Kotlin
+\item The application lets the user follow trending topics on YouTube and
+  Twitter, and provides a notification system for scanning and displaying
+  popular content
+\item The app has 5000+ downloads, 4.7 stars on the Google Play Store, and was
+  featured in an Android news article
 \end{itemize}
+\vspace{0.25em}
 
-\subsection{Web}
+\subsection{Maze Evolution}
 \begin{itemize}
   \itemsep-.25em
-\item Developed a Single Page Application (SPA) that uses genetic algorithms to
-  solve a maze, and displays the process graphically
-\item The website was developed using React JS, using clojurescript, HTML, and
-  CSS
+\item Designed and implemented a Single Page Application (SPA) that uses genetic
+  algorithms to solve a maze, and displays the process graphically
+\item The website was developed with React JS, using clojurescript (reagent and
+  re-frame libraries), HTML, and CSS
 \end{itemize}
 
 \section{Activities and Service}

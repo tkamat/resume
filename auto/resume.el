@@ -4,7 +4,7 @@
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("article" "12pt" "noindent")))
    (TeX-add-to-alist 'LaTeX-provided-package-options
-                     '(("fontenc" "T1") ("geometry" "margin=0.5in") ("hyperref" "colorlinks=true" "urlcolor=blue")))
+                     '(("geometry" "margin=0.5in" "bottom=0.25in" "top=0.25in") ("hyperref" "colorlinks=true" "urlcolor=blue")))
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
@@ -16,7 +16,6 @@
     "latex2e"
     "article"
     "art12"
-    "fontenc"
     "microtype"
     "graphicx"
     "titling"
